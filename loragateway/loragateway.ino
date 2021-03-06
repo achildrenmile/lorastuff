@@ -29,7 +29,7 @@ PubSubClient MQTT(mainESP);
 
 Cipher * cipher = new Cipher();
 
-String delimeter = ";";
+String delimeter = "#";
 String RxString;
 
 int RxRSSI; boolean rx_fp;
