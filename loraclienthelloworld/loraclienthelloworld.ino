@@ -19,7 +19,7 @@
 #define MISO 19
 #define MOSI 27
 
-#define DELIMITER ";"
+#define DELIMITER "#"
 
 String clientid = CLIENTID; 
 long sendcount=0;
